@@ -23,6 +23,7 @@
 		83002B511717B35A007CC54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83002B2C1717B35A007CC54C /* Foundation.framework */; };
 		83002B591717B35A007CC54C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83002B571717B35A007CC54C /* InfoPlist.strings */; };
 		83002B5C1717B35A007CC54C /* AnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83002B5B1717B35A007CC54C /* AnimationsTests.m */; };
+		83002B661717B36B007CC54C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83002B651717B36B007CC54C /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		83002B581717B35A007CC54C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83002B5A1717B35A007CC54C /* AnimationsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationsTests.h; sourceTree = "<group>"; };
 		83002B5B1717B35A007CC54C /* AnimationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationsTests.m; sourceTree = "<group>"; };
+		83002B651717B36B007CC54C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83002B661717B36B007CC54C /* QuartzCore.framework in Frameworks */,
 				83002B2B1717B35A007CC54C /* UIKit.framework in Frameworks */,
 				83002B2D1717B35A007CC54C /* Foundation.framework in Frameworks */,
 				83002B2F1717B35A007CC54C /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +90,7 @@
 		83002B1E1717B35A007CC54C = {
 			isa = PBXGroup;
 			children = (
+				83002B651717B36B007CC54C /* QuartzCore.framework */,
 				83002B301717B35A007CC54C /* Animations */,
 				83002B541717B35A007CC54C /* AnimationsTests */,
 				83002B291717B35A007CC54C /* Frameworks */,
